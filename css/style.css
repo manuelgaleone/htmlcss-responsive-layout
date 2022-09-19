@@ -202,6 +202,18 @@ img {
     max-width: 100%;
 }
 
+.color-violet {
+    color: #9792E4;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.vertical-align {
+    vertical-align: middle;
+}
+
 /*Main*/
 
 /*Large square*/
@@ -318,4 +330,48 @@ img {
     color: #3a3862;
 }
 
+/*Testimonials*/
+.testimonials-title {
+    font-size: 15px;
+}
+
+.testimonials-subtitle {
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.testimonials-caption {
+    padding-top: 15px;
+}
+
+.card-img {
+    float: left;
+    width: 175px;
+    height: 175px;
+    border-radius: 200px;
+}
+
+.card {
+    margin-top: 30px;
+    background-color: #9792E4;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.card-elements {
+    padding-top: 50px;
+    
+}
+
+.card-author {
+    padding-top: 25px;
+}
+
 /*Debug*/
+
+/*Tablet Responsive*/
+@media screen and (min-width:768px) {
+    
+
+
+}
