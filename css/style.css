@@ -164,6 +164,7 @@ body {
 /*Main*/
 .large-square {
     background-color: #B5DDFF;
+    border-radius: 20px;
 }
 
 .small-square {
