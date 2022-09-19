@@ -460,6 +460,23 @@ img {
     left: 150px;
 }
 
+.about-work {
+    font-size: 23px;
+    margin-top: -125px;
+}
+
+.linkedin-button {
+    background-color: #9792E4;
+    color: white;
+    padding: 5px;
+    width: 175px;
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
 /*Debug*/
 
 /*Tablet Responsive*/
