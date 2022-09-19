@@ -18,7 +18,7 @@ body {
 .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     align-items: center;
 }
 
@@ -164,18 +164,29 @@ body {
 /*Main*/
 .large-square {
     background-color: #B5DDFF;
-    border-radius: 20px;
-    padding-left: 25px;
-    padding-bottom: 15px;
 }
 
 .small-square {
     background-color: #B5DDFF;
     border-radius: 20px;
+    padding: 40px;
+    margin-left: 25px;
+}
+
+.small-square-title {
+    font-size: 20px;
+    padding-bottom: 25px;
 }
 
 .large-square-title {
-    font-size: 17px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.large-square-caption {
+    padding-left: 25px;
+    margin-top: -65px;
+    padding-bottom: 20px;
 }
 
 .app-store-button {
@@ -194,11 +205,13 @@ img {
 
 .large-square-img {
     width: 235px;
-    position: relative;
-    top: 20px;
+    padding-top: 55px;
+    margin-bottom: -5px;
+}
+
+.square-icon {
+    font-size: 80px;
+    padding-bottom: 25px;
 }
 
 /*Debug*/
-.main-container {
-    height: 1200px;
-}
