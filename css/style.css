@@ -15,6 +15,12 @@ body {
     margin: auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
 .container-60 {
     width: 60%;
     margin: auto;
@@ -22,8 +28,7 @@ body {
 
 .row {
     display: flex;
-    flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -181,29 +186,16 @@ body {
 .large-square {
     background-color: #B5DDFF;
     border-radius: 20px;
-}
 
-.small-square {
-    background-color: #B5DDFF;
-    border-radius: 20px;
-    padding: 40px;
-    margin-left: 25px;
-}
-
-.small-square-title {
-    font-size: 20px;
-    padding-bottom: 25px;
 }
 
 .large-square-title {
     font-size: 20px;
-    padding-bottom: 20px;
+    
 }
 
 .large-square-caption {
-    padding-left: 25px;
-    margin-top: -65px;
-    padding-bottom: 20px;
+
 }
 
 .app-store-button {
@@ -221,9 +213,9 @@ img {
 }
 
 .large-square-img {
-    width: 235px;
-    padding-top: 55px;
-    margin-bottom: -5px;
+    width: 300px;
+    float: right;
+    margin-right: 75px;
 }
 
 .square-icon {
@@ -238,20 +230,21 @@ img {
 }
 
 .planning-main-img {
-    width: 350px;
+    width: 500px;
     padding-bottom: 135px;
 }
 
 .planning-title {
     color: white;
     opacity: 0.8;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    font-size: 30px;
 }
 
 .developement {
     background-color: white;
     border-radius: 40px;
-    margin-top: 100px;
+    margin-top: 225px;
     margin-left: 50px;
     padding-bottom: 30px;
 }
