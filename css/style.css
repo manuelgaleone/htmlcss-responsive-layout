@@ -368,6 +368,52 @@ img {
     padding-top: 25px;
 }
 
+/*Benefits*/
+.benefits {
+    background-color: #9792E4;
+    padding:50px;
+}
+
+.benefit-card {
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 45px;
+    border-radius: 20px;
+    padding-right: 30px;
+}
+
+.number {
+    color: #9792E4;
+    font-weight: 600;
+
+}
+
+.benefit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #9792E4;
+    font-weight: 500;
+}
+
+.benefit-caption {
+    color: #9792E4;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.more-button {
+    background-color: #9792E4;
+    color: white;
+    display: block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
 /*Debug*/
 
 /*Tablet Responsive*/
