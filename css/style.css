@@ -10,8 +10,13 @@ body {
 }
 
 /*General Settings*/
-.container {
-    width: 70%;
+.container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.container-60 {
+    width: 60%;
     margin: auto;
 }
 
@@ -19,6 +24,13 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: no-wrap;
+    align-items: center;
+}
+
+.row-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -220,8 +232,62 @@ img {
 }
 
 .planning {
-    height: 600px;
+    padding-top: 135px;
+    padding-bottom: 55px;
     background-color: #9792E4;
+}
+
+.planning-main-img {
+    width: 350px;
+    padding-bottom: 135px;
+}
+
+.planning-title {
+    color: white;
+    opacity: 0.8;
+    padding-bottom: 30px;
+}
+
+.developement {
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.developement-img {
+    width: 275px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.developement-title {
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.developement-caption {
+    padding-bottom: 35px;
+    font-size: 15px
+}
+
+.circle-down {
+    background-color: #9792E4;
+    padding: 15px;
+    border-radius: 50px;
+    display: block;
+    width: 50px;
+    margin-left: 220px;
+
+}
+
+.arrow-icon {
+    color: #3a3862;
+}
+
+.space {
+
 }
 
 /*Debug*/
