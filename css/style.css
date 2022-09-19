@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .row-space-around {
@@ -101,6 +102,10 @@ body {
     text-align: right;
 }
 
+.padding-top-50 {
+    padding-top: 50px;
+}
+
 .padding-25 {
     padding: 25px;
 }
@@ -160,8 +165,8 @@ body {
 .large-square {
     background-color: #B5DDFF;
     border-radius: 20px;
-    height: 250px;
-    padding: 40px;
+    padding-left: 25px;
+    padding-bottom: 15px;
 }
 
 .small-square {
@@ -187,8 +192,10 @@ img {
     max-width: 100%;
 }
 
-.square-img {
-    width: 190px;
+.large-square-img {
+    width: 235px;
+    position: relative;
+    top: 20px;
 }
 
 /*Debug*/
