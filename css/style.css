@@ -346,9 +346,10 @@ img {
 
 .card-img {
     float: left;
-    width: 175px;
-    height: 175px;
+    width: 170px;
+    height: 172px;
     border-radius: 200px;
+    margin-right: 35px;
 }
 
 .card {
