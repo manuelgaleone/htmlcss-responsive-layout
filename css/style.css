@@ -163,6 +163,10 @@ body {
     padding-left: 15px;
 }
 
+.margin-left-25 {
+    margin-left: 25px;
+}
+
 .padding-bottom-15 {
     padding-bottom: 15px;
 }
@@ -361,6 +365,7 @@ img {
     background-color: #9792E4;
     border-radius: 30px;
     padding: 20px;
+    
 }
 
 .card-elements {
@@ -423,6 +428,23 @@ img {
     text-align: center;
     padding-bottom: 50px;
     font-size: 30px;
+}
+
+/*About Me*/
+.about-us {
+    padding: 50px;
+}
+
+.about-us-title {
+    color: #9792E4;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.about-us-caption {
+    font-size: 17px;
+    line-height: 2;
 }
 
 /*Debug*/
