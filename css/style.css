@@ -10,8 +10,8 @@ body {
 }
 
 /*General Settings*/
-.container-80 {
-    width: 80%;
+.container-1140 {
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
 }
 
 .row-column {
@@ -41,7 +41,7 @@ body {
 .row-space-around {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -49,7 +49,7 @@ body {
 .row-space-between {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -116,6 +116,10 @@ body {
 
 .text-align-right {
     text-align: right;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
 }
 
 .padding-top-50 {
@@ -211,7 +215,8 @@ img {
     width: 250px;
     margin-bottom: -5px;
     margin-top: 50px;
-    padding-left: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
 }
 
 .app-store-button {
@@ -229,9 +234,18 @@ img {
 .small-square {
     background-color: #B5DDFF;
     border-radius: 20px;
-
+    margin-left: 25px;
+    padding: 25px;
 }
 
+.square-icons {
+    font-size: 75px;
+    padding-bottom: 15px;
+}
+
+.small-square-title {
+    padding-bottom: 15px;
+}
 
 
 /*Planning section*/
@@ -289,10 +303,6 @@ img {
 
 .arrow-icon {
     color: #3a3862;
-}
-
-.space {
-
 }
 
 /*Debug*/
