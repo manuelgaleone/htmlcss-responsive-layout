@@ -70,6 +70,14 @@ body {
     width: calc(100% / 12 * 4);
 }
 
+.card-col-4 {
+    width: calc(100% / 12 * 4 - 25px);
+}
+
+.card-col-8 {
+    width: calc(100% / 12 * 8 - 25px);
+}
+
 .col-5 {
     width: calc(100% / 12 * 5);
 }
@@ -195,6 +203,7 @@ img {
 .large-square {
     background-color: #B5DDFF;
     border-radius: 20px;
+    margin-left: 25px;
 }
 
 .large-square-title {
@@ -214,7 +223,7 @@ img {
 .large-square-img {
     width: 250px;
     margin-bottom: -5px;
-    margin-top: 50px;
+    margin-top: 105px;
     padding-left: 20px;
     padding-right: 25px;
 }
