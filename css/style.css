@@ -29,7 +29,6 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .row-column {
@@ -182,20 +181,37 @@ body {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /*Main*/
+
+/*Large square*/
 .large-square {
     background-color: #B5DDFF;
     border-radius: 20px;
-
 }
 
 .large-square-title {
     font-size: 20px;
-    
+
+}
+
+.large-square-elements {
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
 .large-square-caption {
+    margin-top: 30px;
+}
 
+.large-square-img {
+    width: 250px;
+    margin-bottom: -5px;
+    margin-top: 50px;
+    padding-left: 25px;
 }
 
 .app-store-button {
@@ -206,23 +222,19 @@ body {
     width: 175px;
     text-align: center;
     font-size: 15px;
+    margin-top: 30px;
 }
 
-img {
-    max-width: 100%;
+/*Small square*/
+.small-square {
+    background-color: #B5DDFF;
+    border-radius: 20px;
+
 }
 
-.large-square-img {
-    width: 300px;
-    float: right;
-    margin-right: 75px;
-}
 
-.square-icon {
-    font-size: 80px;
-    padding-bottom: 25px;
-}
 
+/*Planning section*/
 .planning {
     padding-top: 135px;
     padding-bottom: 55px;
