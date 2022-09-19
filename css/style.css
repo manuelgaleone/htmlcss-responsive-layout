@@ -477,7 +477,62 @@ img {
     margin-top: 20px;
 }
 
-/*Debug*/
+/*Cta*/
+.cta {
+    background-color: #9792E4;
+    padding:50px;
+}
+
+.on-title {
+    font-size: 13px;
+    color: white;
+    opacity: 0.8;
+}
+
+.cta-title {
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.free-title {
+    color: #FDC15F;
+    font-size: 65px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.get-started-button-cta {
+    display: block;
+    font-size: 15px;
+    color:#9792E4;
+    background-color: white;
+    width: 175px;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 775px;
+    margin-top: 20px;
+}
+
+/*Footer*/
+.main-footer {
+    background-color: #333333;
+    color: white;
+    padding: 50px;
+    font-size: 12px;
+}
+
+.lorem-ipsum {
+    margin-top: 50px;
+}
+
+p > a {
+    color: #9792E4;
+}
+
+
+/*Effects*/
 
 /*Tablet Responsive*/
 @media screen and (min-width:768px) {
