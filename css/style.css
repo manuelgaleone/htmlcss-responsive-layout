@@ -46,7 +46,7 @@ body {
 .row-space-around {
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -412,6 +412,13 @@ img {
     margin-top: 30px;
     padding: 5px;
     border-radius: 20px;
+}
+
+.benefits-title {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 30px;
 }
 
 /*Debug*/
