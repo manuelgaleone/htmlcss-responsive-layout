@@ -89,6 +89,10 @@ body {
     color: white;
 }
 
+.color-blue {
+    color: #0084FD;
+}
+
 .back-color-blue {
     background-color: #0084FD;
 }
@@ -111,6 +115,18 @@ body {
 
 .padding-left-15 {
     padding-left: 15px;
+}
+
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+
+.padding-bottom-25 {
+    padding-bottom: 25px;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 /*Header*/
@@ -141,11 +157,11 @@ body {
 }
 
 /*Main*/
-
 .large-square {
     background-color: #B5DDFF;
     border-radius: 20px;
-    padding: 20px;
+    height: 250px;
+    padding: 40px;
 }
 
 .small-square {
@@ -155,7 +171,24 @@ body {
 
 .large-square-title {
     font-size: 17px;
-    padding-bottom: 10px;
+}
+
+.app-store-button {
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 175px;
+    text-align: center;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.square-img {
+    width: 190px;
 }
 
 /*Debug*/
