@@ -354,10 +354,10 @@ img {
 
 .card-img {
     float: left;
-    width: 170px;
-    height: 172px;
-    border-radius: 200px;
     margin-right: 35px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 
 .card {
@@ -445,6 +445,19 @@ img {
 .about-us-caption {
     font-size: 17px;
     line-height: 2;
+}
+
+.about-img {
+    border-radius: 500px;
+    width: 200px;
+}
+
+.virgolette {
+    position: relative;
+    font-size: 125px;
+    color: #9792E4;
+    top: -200px;
+    left: 150px;
 }
 
 /*Debug*/
