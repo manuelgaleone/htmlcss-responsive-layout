@@ -68,6 +68,10 @@ body {
     width: calc(100% / 12 * 4);
 }
 
+.col-4-md {
+    width: calc(100% / 12 * 4);
+}
+
 .col-5 {
     width: calc(100% / 12 * 5);
 }
@@ -623,6 +627,10 @@ p > a {
 
     .padding-top-225 {
         padding-top: 50px;
+    }
+
+    .col-4-md {
+        width: calc(100% / 12 * 6);
     }
 
 }
