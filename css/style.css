@@ -13,6 +13,11 @@ body {
 .container-1140 {
     max-width: 1140px;
     margin: auto;
+
+}
+
+.d-flex {
+    display: flex;
 }
 
 .clearfix::after {
@@ -21,26 +26,10 @@ body {
     clear:both;
 }
 
-.container-60 {
-    width: 60%;
-    margin: auto;
-}
-
-.sub-row-wrap {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .row {
     display: flex;
-    flex-wrap: no-wrap;
-}
-
-.row-column {
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .row-space-around {
@@ -59,6 +48,10 @@ body {
     align-items: center;
 }
 
+.align-self {
+    align-self: flex-end;
+}
+
 .col-1 {
     width: calc(100% / 12 * 1);
 }
@@ -73,14 +66,6 @@ body {
 
 .col-4 {
     width: calc(100% / 12 * 4);
-}
-
-.card-col-4 {
-    width: calc(100% / 12 * 4 - 25px);
-}
-
-.card-col-8 {
-    width: calc(100% / 12 * 8 - 25px);
 }
 
 .col-5 {
@@ -231,13 +216,16 @@ img {
     display: none;
 }
 
+.padding-right-50 {
+    padding-right: 50px;
+}
+
 /*Main*/
 
 /*Large square*/
 .large-square {
     background-color: #B5DDFF;
     border-radius: 20px;
-    margin-left: 25px;
 }
 
 .large-square-title {
@@ -251,14 +239,17 @@ img {
 }
 
 .large-square-caption {
-    margin-top: 25px;
+    padding-top: 25px;
     line-height: 28px;
 }
 
 .large-square-img {
-    width: 225px;
-    position: relative;
-    top: 51px;
+    width: 200px;
+    margin-bottom: -5px;
+}
+
+.col-4 > img {
+    align-content: flex-end;
 }
 
 .app-store-button {
@@ -276,7 +267,6 @@ img {
 .small-square {
     background-color: #B5DDFF;
     border-radius: 20px;
-    margin-left: 25px;
     padding: 25px;
 }
 
@@ -465,17 +455,9 @@ img {
     width: 200px;
 }
 
-.virgolette {
-    position: relative;
-    font-size: 125px;
-    color: #9792E4;
-    top: -200px;
-    left: 150px;
-}
-
 .about-work {
-    font-size: 23px;
-    margin-top: -125px;
+    font-size: 22px;
+    padding-top: 25px;
 }
 
 .linkedin-button {
@@ -506,6 +488,7 @@ img {
     padding-top: 20px;
     font-size: 30px;
     padding-bottom: 20px;
+    color: white;
 }
 
 .free-title {
@@ -577,51 +560,6 @@ p > a {
     }
 
     /*Main*/
-    .large-square {
-        padding-right: -25px;
-    }
-
-    .row {
-        padding-right: 25px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .sub-row-wrap {
-        padding-right: 25px;
-
-    }
-
-    .planning-row {
-        padding-left: 25px;
-    }
-
-    .planning-main-img {
-        width: 1000px;
-    }
-
-
-
-    /*Testimonials*/
-    .testimonials {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .card-author {
-        padding-top: 25px;
-    }
-
-
-    /*About Us*/
-    .virgolette {
-        position: relative;
-        font-size: 125px;
-        color: #9792E4;
-        top: -200px;
-        left: 50px;
-        padding-left: 65px;
-    }
 
 }
 
@@ -636,38 +574,6 @@ p > a {
     }
 
     /*Main*/
-    .large-square {
-        padding-right: -25px;
-    }
-
-    .row {
-        padding-right: 25px;
-    }
-
-    .sub-row-wrap {
-        padding-right: 25px;
-
-    }
-
-    /*Testimonials*/
-    .testimonials {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .card-pos {
-        padding-top: 25px;
-        padding-left: 185px;
-
-    }
-    /*About Us*/
-    .virgolette {
-        position: relative;
-        font-size: 125px;
-        color: #9792E4;
-        top: -200px;
-        left: 50px;
-        padding-left: 65px;
-    }
+    
 
 }
