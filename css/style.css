@@ -287,9 +287,9 @@ img {
 
 /*Planning section*/
 .planning {
-    padding-top: 135px;
-    padding-bottom: 55px;
+    padding: 50px;
     background-color: #9792E4;
+    margin: auto;
 }
 
 .planning-main-img {
