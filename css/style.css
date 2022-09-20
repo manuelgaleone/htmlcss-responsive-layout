@@ -222,6 +222,11 @@ img {
     vertical-align: middle;
 }
 
+.toggle {
+    font-size: 30px;
+    display: none;
+}
+
 /*Main*/
 
 /*Large square*/
@@ -533,21 +538,61 @@ p > a {
 
 
 /*Effects*/
+.toggle:hover {
+    color: #B5DDFF;
+    cursor: pointer;
+}
+
 
 /*Tablet Responsive*/
 @media screen and (max-width:768px) {
-    
-    .col-4 {
-        width: calc (100% / 12 * 4);
-    }
 
     .col-6 {
-        width: calc (100% / 12 * 6);
+        width: 100%;
     }
 
-    .col-8 {
-        width: calc (100% / 12 * 8);
+    .container-1140 {
+        width: 100%;
     }
 
+    .menu {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:769) and (max-width:1050px) {
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .container-1140 {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 100%;
+    }
 
 }
