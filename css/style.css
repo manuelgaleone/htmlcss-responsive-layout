@@ -516,8 +516,9 @@ img {
     padding: 15px;
     border-radius: 20px;
     text-decoration: none;
-    margin-left: 775px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Footer*/
@@ -551,6 +552,10 @@ p > a {
         width: 100%;
     }
 
+    .card-col-4 {
+        margin-right: 25px;
+    }
+
     .menu {
         display: none;
     }
@@ -566,6 +571,9 @@ p > a {
     }
 
 
+    .get-started-button-cta {
+        margin-left: 500px;
+    }
 
 
 }
