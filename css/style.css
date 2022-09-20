@@ -376,8 +376,7 @@ img {
     margin-top: 30px;
     background-color: #9792E4;
     border-radius: 30px;
-    padding: 20px;
-    
+    padding: 25px;
 }
 
 .card-elements {
@@ -588,6 +587,8 @@ p > a {
     .large-square > .col-8 {
         margin-left: -150px;
     }
+
+
 
 }
 
