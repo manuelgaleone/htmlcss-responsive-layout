@@ -309,10 +309,13 @@ img {
     font-size: 30px;
 }
 
+.padding-top-225 {
+    padding-top: 275px;
+}
+
 .developement {
     background-color: white;
     border-radius: 40px;
-    margin-top: 225px;
     margin-left: 50px;
     padding-bottom: 30px;
 }
@@ -580,6 +583,8 @@ p > a {
 
     .row {
         padding-right: 25px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .sub-row-wrap {
@@ -587,16 +592,15 @@ p > a {
 
     }
 
-    
-
     .planning-row {
-        display: flex;
-        flex-wrap: wrap;
+        padding-left: 25px;
     }
 
     .planning-main-img {
-        width: 100%;
+        width: 1000px;
     }
+
+
 
     /*Testimonials*/
     .testimonials {
@@ -645,17 +649,6 @@ p > a {
 
     }
 
-    
-
-    .planning-row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .planning-main-img {
-        width: 100%;
-    }
-
     /*Testimonials*/
     .testimonials {
         padding-left: 25px;
@@ -665,9 +658,8 @@ p > a {
     .card-pos {
         padding-top: 25px;
         padding-left: 185px;
+
     }
-
-
     /*About Us*/
     .virgolette {
         position: relative;
