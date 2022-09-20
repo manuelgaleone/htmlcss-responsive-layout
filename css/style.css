@@ -341,6 +341,10 @@ img {
 
 }
 
+.align-items {
+    align-items: center;
+}
+
 .arrow-icon {
     color: #3a3862;
 }
@@ -377,7 +381,7 @@ img {
 }
 
 .card-elements {
-    padding-top: 50px;
+    
     
 }
 
