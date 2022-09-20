@@ -124,6 +124,11 @@ body {
     padding-top: 50px;
 }
 
+.card-padding {
+    padding: 15px;
+
+}
+
 .padding-bottom-50 {
     padding-bottom: 50px;
 }
