@@ -570,6 +570,25 @@ p > a {
 
     /*Main*/
 
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .large-square > .col-4 {
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .large-square > .app-store-button {
+        padding-top: -10px;
+    }
+
+    .large-square > .col-8 {
+        margin-left: -150px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 11400px) {
