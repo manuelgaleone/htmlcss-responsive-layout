@@ -552,10 +552,6 @@ p > a {
         width: 100%;
     }
 
-    .card-col-4 {
-        margin-right: 25px;
-    }
-
     .menu {
         display: none;
     }
@@ -570,11 +566,29 @@ p > a {
         width: 100%;
     }
 
-
-    .get-started-button-cta {
-        margin-left: 500px;
+    .large-square {
+        padding-right: -25px;
     }
 
+    .large-square-img {
+        width: 200px;
+        position: relative;
+        top: 10px;
+    }
+
+    .row {
+        padding-right: 25px;
+    }
+
+    .sub-row-wrap {
+        padding-right: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-col-4 {
+        width: 20%;
+    }
 
 }
 
@@ -591,6 +605,10 @@ p > a {
     .row {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .card-col-4 {
+        width: 100%;
     }
 
  }
