@@ -167,6 +167,10 @@ body {
     margin-left: 25px;
 }
 
+.margin-right-25 {
+    margin-right: 25px;
+}
+
 .padding-bottom-15 {
     padding-bottom: 15px;
 }
@@ -548,10 +552,12 @@ p > a {
 /*Tablet Responsive*/
 @media screen and (max-width:768px) {
 
+    /*General*/
     .container-1140 {
-        width: 100%;
+        width: 768;
     }
 
+    /*Header*/
     .menu {
         display: none;
     }
@@ -566,14 +572,9 @@ p > a {
         width: 100%;
     }
 
+    /*Main*/
     .large-square {
         padding-right: -25px;
-    }
-
-    .large-square-img {
-        width: 200px;
-        position: relative;
-        top: 10px;
     }
 
     .row {
@@ -582,32 +583,51 @@ p > a {
 
     .sub-row-wrap {
         padding-right: 25px;
+
+    }
+
+    
+
+    .planning-row {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .card-col-4 {
-        width: 20%;
+    .planning-main-img {
+        width: 100%;
     }
+
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1160px) {
+@media screen and (min-width: 768px) and (max-width: 11400px) {
 
     .container {
-        width: 100%;
+        width: 1140px;
     }
 
     .menu {
         width: 100%;
     }
 
+    .large-square {
+        padding-right: -25px;
+    }
+
     .row {
+        padding-right: 25px;
+    }
+
+    .sub-row-wrap {
+        padding-right: 25px;
+
+    }
+    .planning-row {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .card-col-4 {
+    .planning-main-img {
         width: 100%;
     }
 
