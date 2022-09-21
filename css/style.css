@@ -401,7 +401,8 @@ img {
 }
 
 .card-elements {
-    
+    margin-top: auto;
+    margin-bottom: auto;
     
 }
 
@@ -705,5 +706,8 @@ p > a {
         margin-bottom: 15px;
     }
 
+    .card {
+        
+    }
 
 }
