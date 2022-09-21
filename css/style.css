@@ -685,6 +685,7 @@ p > a {
 
     .col-8-lg {
         width: calc(100% / 12 * 12);
+        text-align:center;
     }
 
     .col-4-lg {
