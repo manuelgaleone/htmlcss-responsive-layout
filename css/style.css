@@ -476,6 +476,15 @@ img {
     padding: 50px;
 }
 
+.virgoletta {
+    color: #9792E4;
+    font-size: 125px;
+    position: relative;
+    bottom: 175px;
+    left: 175px;
+    margin-bottom: -50px;
+}
+
 .about-us-title {
     color: #9792E4;
     font-size: 50px;
@@ -649,6 +658,15 @@ p > a {
 
     .col-4-md {
         width: calc(100% / 12 * 6);
+    }
+
+    .virgoletta {
+        color: #9792E4;
+        font-size: 125px;
+        position: relative;
+        bottom: 175px;
+        left: 125px;
+        margin-bottom: -50px;
     }
 
 }
