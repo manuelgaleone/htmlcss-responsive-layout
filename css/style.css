@@ -653,7 +653,7 @@ p > a {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 11400px) {
+@media screen and (min-width: 768px) and (max-width: 1140px) {
 
     .container {
         width: 1140px;
